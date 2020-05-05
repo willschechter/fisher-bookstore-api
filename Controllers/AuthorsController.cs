@@ -11,7 +11,6 @@ namespace Fisher.Bookstore.Controllers
     public class AuthorsController : ControllerBase 
     {
         private IAuthorsRepository authorsRepository;
-
         public AuthorsController(IAuthorsRepository repository)
         {
             authorsRepository = repository;
